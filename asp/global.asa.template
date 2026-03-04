@@ -5,18 +5,18 @@ Sub Application_OnStart
 	application("dbServer") 		= "BILL"
 	application("dbPort") 			= "1433"
 	application("dbName") 			= "csuite"
-	application("dbUser") 			= "banks"
-	application("dbPass") 			= "tyraBanks69!"
-	
-	application("dbug") 				= true 
+	application("dbUser") 			= "_SET_ME__"
+	application("dbPass") 			= "_SET_ME__"
+
+	application("dbug") 				= true
 	application("unifiedLog") 		= true
-	
+
 '	application("apiServer")		= "https://banks.bill.local:3443"
 	application("apiServer")		= "https://bill:3443"
 	application("aspServer")		= "https://bill"
 	application("sessionTimeout")	= 90
 	session.timeout 					= application("sessionTimeout")
-	
+
 End Sub
 
 

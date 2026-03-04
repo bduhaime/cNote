@@ -1,8 +1,8 @@
 {
 	"mssql": {
 		"server": "bill",
-		"user": "banks",
-		"password": "tyraBanks69!",
+		"user": "_SET_ME__",
+		"password": "_SET_ME__",
 		"database": "demo",
 		"encrypt": false,
 		"debug": true,
