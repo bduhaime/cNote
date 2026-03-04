@@ -1,0 +1,97 @@
+# =========================
+# OS / editor
+# =========================
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+**/.vs/
+
+# =========================
+# Logs
+# =========================
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Dependencies / builds
+# =========================
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+
+# =========================
+# Env / secrets
+# =========================
+**/.env
+**/.env.*
+!**/.env.example
+
+# Classic ASP env-specific secrets
+/asp/global.asa
+/asp/Global.asa
+/asp/config.json
+
+# API env-specific secrets
+/api/config/db.js
+
+# =========================
+# Windows / VS miscellany
+# =========================
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+# =========================
+# Optional local overrides
+# =========================
+**/*.local.*
+
+# =========================
+# Optional backups
+# =========================
+**/*.BACKUP*
+**/* BACKUP *
+**/*.backup
+**/*.backup.*
+
+# =========================
+# Runtime data
+# =========================
+**/uploads/
+
+# =========================
+# Experimental / not for promotion
+# =========================
+**/demos/
+
+# =========================
+# Certs / keys (never commit)
+# =========================
+**/*.pfx
+**/*.p12
+**/*.pem
+**/*.key
+
+# =========================
+# Temp / cache
+# =========================
+**/*.tmp
+**/*.cache
+
+
+# IIS / Classic ASP (env-managed)
+/asp/web.config
+!/asp/web.config.template
+/asp/web.*.config

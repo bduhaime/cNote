@@ -1,0 +1,203 @@
+/* Copyright (C) 2017-2018, Brad Duhaime. All Rights Reserved. */
+
+
+.alignRight {
+	text-align: right;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.cNoteTable tbody {
+   overflow: auto;
+}		
+
+
+
+/*
+.cNoteTable, td, th {
+
+	border-collapse: collapse;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: small;
+}
+*/
+
+table.cNoteFixedColumns {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+table.cNoteFixedColumns th, table.cNoteFixedColumns td {
+	padding: 12px 18px 12px 18px !important;
+} 
+
+table.cNoteFixedColumns .tiniest {
+width: 25px !important;
+}
+table.cNoteFixedColumns .tiny {
+	width: 50px !important;
+}
+
+table.cNoteFixedColumns .smaller {
+	width: 75px !important;
+}
+
+table.cNoteFixedColumns .small {
+	width: 100px !important;
+}
+
+table.cNoteFixedColumns .medium {
+	width: 160px !important;
+}
+
+table.cNoteFixedColumns .large {
+	width: 200px !important;
+}
+
+table.cNoteFixedColumns .larger {
+	width: 300px !important;
+}
+
+table.cNoteFixedColumns .huge {
+	width: 400px !important;
+}
+
+
+
+
+
+/*
+.cNoteTable tbody tr, tbody td {
+	height: 20px;
+	font-size: small;
+}
+
+.cNoteTable thead th, .cNoteTable tfoot tr {
+	vertical-align: bottom;
+	font-weight: bold;
+	background-color: #e4e9f4;
+}
+
+.cNoteTable tbody tr:nth-child(odd){
+	background-color: #fafafa;
+}	
+
+.cNoteHighlightedCell {
+	background-color: #b3d4fc !important;
+	cursor: pointer !important;
+}
+
+.cNoteHighlightedCMItem {
+	background-color: #b3b8f8;
+	cursor: pointer;
+}
+
+.cNoteMoney {
+	text-align: right !important;
+}
+
+th.cNoteFixedCellTiny, td.cNoteFixedCellTiny {
+	width: 24px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+	
+th.cNoteFixedCellSmaller, td.cNoteFixedCellSmaller {
+	width: 50px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+	
+th.cNoteFixedCellSmall, td.cNoteFixedCellSmall {
+	width: 60px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+	
+th.cNoteFixedCellMedium, td.cNoteFixedCellMedium  {
+	width: 70px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+	
+th.cNoteFixedCellLarge, td.cNoteFixedCellLarge {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	max-width: 90px; 
+	width: 90px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+
+th.cNoteFixedCellLarger, td.cNoteFixedCellLarger {
+	width: 120px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+
+th.cNoteFixedCellXLarge, td.cNoteFixedCellXLarge {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	max-width: 150px; 
+	width: 150px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+
+th.cNoteFixedCellHuge, td.cNoteFixedCellHuge {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	max-width: 210; 
+	width: 210px !important;
+	padding: 12px 18px 12px 18px !important;
+}
+
+th.cNoteFixedCellGiant, td.cNoteFixedCellGiant {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	width: 300px !important; 
+	max-width: 300px; 
+	white-space: nowrap;
+	padding: 12px 18px 12px 18px !important;
+}
+
+th.sort {
+	cursor: url('images/baseline_import_export_black_18dp.png'), auto;
+}		
+*/
+
+tr.projectRow {
+	cursor: pointer;
+}
+
+td.toggleKI {
+	cursor: pointer;
+}
+
+td.actionIcons {
+	text-align: right;
+}
+
+tr.kiProjectRow {
+	background-color: lightgrey;
+}
+
+table.cNoteScrollable {
+	table-layout: fixed;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+table.cNoteScrollable > tbody {
+	display: inline-block; 
+	overflow: auto; 
+	height: 622px;
+}
+
+
+
+
+
+		

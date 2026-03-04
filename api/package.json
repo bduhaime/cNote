@@ -1,0 +1,59 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "cNote API",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon --inspect --trace-warnings app.js",
+    "start": "nodemon -L --trace-warnings app.js"
+  },
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "axios": "^1.6.8",
+    "axios-retry": "^4.1.0",
+    "axios-throttle": "^1.0.2",
+    "body-parser": "^1.20.2",
+    "btoa": "^1.2.1",
+    "calendar-link": "^2.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "datatables.net-editor-server": "^2.3.2",
+    "date-holidays": "^3.24.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "follow-redirects": "^1.15.6",
+    "generate-password": "^1.7.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "js-cookies": "^1.0.4",
+    "jsdom": "^24.1.1",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "limiter": "^2.1.0",
+    "logform": "^2.6.0",
+    "md5": "^2.3.0",
+    "moment-timezone": "^0.5.45",
+    "mssql": "^10.0.2",
+    "najax": "^1.0.7",
+    "nodemailer": "^6.9.13",
+    "passport": "^0.7.0",
+    "q": "^1.5.1",
+    "quill": "^1.3.7",
+    "quill-delta-to-html": "^0.12.1",
+    "url": "^0.11.3",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "npm": ">=8.1.0",
+    "node": ">=16.13.0"
+  },
+  "author": "COPYRIGHT (C) 2023, Polaris Consulting, LLC",
+  "license": "ISC"
+}

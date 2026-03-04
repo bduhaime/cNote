@@ -1,0 +1,78 @@
+PK	companyID (unique, PK)
+	id 
+
+01	customerID
+	account holder number
+		household key
+		balance
+		
+02	customerID
+	account holder number
+		household key
+		profit
+		
+03	customerID
+	account holder number
+		branch code
+		
+04	customerID
+	account number
+		branch code
+		officer code
+		office name
+		
+05	customerID
+	account number
+	centile
+		
+06	customerID
+	account number
+	decile
+	
+07	customerID
+	household key
+	
+08	customerID
+	default risk rate
+	
+09	customerID
+	centile
+	
+10	customerID
+	decile
+	
+11	customerID
+	product code
+	
+12	customerID
+	officer code 
+	
+13	customerID
+	service
+	
+14	customerID
+	loan deposit other
+	
+15	customerID
+	office code and office name
+	
+16	customerID
+	branch code and branch description
+	
+17	customerID
+	account holder number
+	service propensity
+	account type propensity 
+	process date
+	
+	customerID
+	open date
+	
+18	customerID
+	loan deposit other
+	account holder number 
+		household key
+		balance
+		profit
+		
+	

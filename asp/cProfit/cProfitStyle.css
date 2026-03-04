@@ -1,0 +1,94 @@
+/* Copyright (C) 2017-2018, Brad Duhaime. All Rights Reserved. */
+
+
+	.cNoteShowAddendaContextMenu {
+		z-index:1000;
+		position: absolute;
+		background-color:#ffffff;
+		border: 1px solid #b3b8f8;
+		display: block;
+		margin: 0px;
+		list-style-type: none;
+		list-style: none;
+	}
+
+
+	.reportTitle {
+		text-align: center;
+		font-size: large;
+		font-weight: bold;
+	}
+	
+	td.accountHolderNumber, td.accountHolderName, td.addenda, td.note, td.accountNumber {
+		max-width: 120px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;		
+	}
+			
+	table.dataTable tbody tr:hover {
+/* 		cursor: context-menu; */
+		cursor: url('../images/customContextMenuPointer.svg'), default;
+	}
+			
+	table.dataTable thead th.leftGroupEdge {
+		border-left: solid #111 1px;
+	}
+	
+	table tfoot th.alignRight {
+		text-align: right;
+	}
+	
+	.context-menu {
+		display: none;
+		position: absolute;
+		z-index: 100;
+		opacity: 1;
+
+		background-color: ; 
+/*
+		border-top: 3px solid black;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		-moz-box-shadow: 0 0 10px white; 
+*/
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	}
+	
+	.context-menu__title {
+		padding: 0px 8px 0px 8px;
+		height: 36px;
+		line-height: 36px;
+	}
+	.context-menu {
+		background-color: white;
+		opacity: 1;
+	}
+	
+	.context-menu ul {
+		opacity: 1;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 8px;
+		list-style-type: none;
+/* 			border: solid black 1px; */
+	}
+
+	.context-menu ul > li {
+		padding: 0px 8px 0px 16px;
+		height: 36px;
+		line-height: 36px;
+	}
+	
+	.context-menu ul > li:hover {
+		background-color: #f1f1f1;	
+	}
+	
+	.context-menu--active {
+		transition: ease-in-out	.5s;
+		display: block;
+		opacity: 1;
+	}
+	
+	

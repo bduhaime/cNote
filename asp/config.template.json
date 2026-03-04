@@ -1,0 +1,17 @@
+{
+	"mssql": {
+		"server": "bill",
+		"user": "banks",
+		"password": "tyraBanks69!",
+		"database": "demo",
+		"encrypt": false,
+		"debug": true,
+		"connectionTimeout": 300000,
+		"requestTimeout": 300000,
+		"options": {
+			"instanceName": "SQLEXPRESS01",
+			"enableArithAbort": false
+		},
+	"port": 1433
+	}
+}
