@@ -1,0 +1,13 @@
+.git/
+node_modules/
+dist/
+build/
+**/.DS_Store
+
+# secrets (match your .gitignore intent)
+/asp/config.json
+/asp/global.asa
+/asp/Global.asa
+/api/config/db.js
+/asp/web.config
+/asp/web.*.config

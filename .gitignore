@@ -4,7 +4,6 @@
 **/.DS_Store
 Thumbs.db
 Desktop.ini
-
 .vscode/*
 !.vscode/extensions.json
 .idea/
@@ -37,9 +36,12 @@ lerna-debug.log*
 !**/.env.example
 
 # Classic ASP env-specific secrets
+/asp/config.json
 /asp/global.asa
 /asp/Global.asa
-/asp/config.json
+/asp/web.config
+/asp/web.*.config
+!/asp/web.config.template
 
 # API env-specific secrets
 /api/config/db.js
@@ -59,22 +61,14 @@ lerna-debug.log*
 **/*.local.*
 
 # =========================
+# Optional ba
+
+# =========================
 # Optional backups
 # =========================
 **/*.BACKUP*
-**/* BACKUP *
 **/*.backup
 **/*.backup.*
-
-# =========================
-# Runtime data
-# =========================
-**/uploads/
-
-# =========================
-# Experimental / not for promotion
-# =========================
-**/demos/
 
 # =========================
 # Certs / keys (never commit)
@@ -90,8 +84,14 @@ lerna-debug.log*
 **/*.tmp
 **/*.cache
 
+# =========================
+# Local dev tooling
+# =========================
+watch.sh
+devsync.sh
 
-# IIS / Classic ASP (env-managed)
-/asp/web.config
-!/asp/web.config.template
-/asp/web.*.config
+# =========================
+# Temporary and generated folders
+# =========================
+output/
+tmp/
